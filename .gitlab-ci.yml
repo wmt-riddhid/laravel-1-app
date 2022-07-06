@@ -3,7 +3,7 @@ image: php:5.6
 stages:
   - build
 variables:
-  DOCKER_DEV_URL: registry.gitlab.com/WebMob Technologies/laravel-example-app/build-laravel
+  DOCKER_DEV_URL: registry.gitlab.com/riddhid1/laravel-1-project/build-laravel
 services:
   - 'docker:19.03.5-dind'
 build-dev:
